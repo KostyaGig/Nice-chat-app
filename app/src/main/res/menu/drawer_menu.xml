@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/item_home" android:title="Home"/>
+        <item android:id="@+id/item_profile" android:title="Profile"/>
+        <item android:id="@+id/item_friend" android:title="Friend"/>
+        <item android:id="@+id/item_findFriend" android:title="Find friend"/>
+        <item android:id="@+id/item_chat" android:title="Chat"/>
+<group android:id="@+id/drugoe">
+    <item android:id="@+id/item_logOut" android:title="Log out"/>
+</group>
+
+
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.kostya.chatmeapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".friend.FriendActivity" android:theme="@style/MainTheme"></activity>
+        <activity android:name=".forgetPassword.ForgetPasswordActivity" />
+        <activity
+            android:name=".friend.ViewFriendActivity"
+            android:theme="@style/MainTheme" />
+        <activity
+            android:name=".friend.FindFriendActivity"
+            android:theme="@style/MainTheme" />
+        <activity android:name=".profile.ProfileActivity" />
+        <activity android:name=".activities.SetupActivity" />
+        <activity android:name=".activities.StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".auth.LoginActivity" />
+        <activity android:name=".auth.RegisterActivity" />
+        <activity
+            android:name=".activities.MainActivity"
+            android:theme="@style/MainTheme" />
+    </application>
+
+</manifest>

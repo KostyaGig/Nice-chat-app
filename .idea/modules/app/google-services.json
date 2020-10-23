@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "331326704058",
+    "firebase_url": "https://chatmeapp-94a1c.firebaseio.com",
+    "project_id": "chatmeapp-94a1c",
+    "storage_bucket": "chatmeapp-94a1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331326704058:android:7f0668e13ad7257b8f7583",
+        "android_client_info": {
+          "package_name": "ru.kostya.chatmeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331326704058-hggf36po9pto386630ttr3474f4e8vop.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.kostya.chatmeapp",
+            "certificate_hash": "601016afbf9bed36c70cd119c019aea64a08814d"
+          }
+        },
+        {
+          "client_id": "331326704058-llgfj30j2uo6drb481p8q3bt1brh2rfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGCk1S5M8zl0J8mLVdX5SNYwsdz9wNrrw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331326704058-llgfj30j2uo6drb481p8q3bt1brh2rfj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
